@@ -1,4 +1,3 @@
-new ;ien dk
 import pickle
 import pandas as pd
 import mysql.connector
