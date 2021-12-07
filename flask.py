@@ -48,6 +48,10 @@ mycursor = mydb.cursor()
 #query="INSERT INTO result(user,prediction)VALUES(user,prediction);"
 #mycursor.execute(query)
 
+sql = "Insert into predict (recom) values (23)"
+sql = "Insert into predict (recom) values (21)"
+sql = "Insert into predict (recom) values (12)"
+sql = "Insert into predict (recom) values (53)"
 
 sql = "INSERT INTO predict (recom) VALUES (%s)"
 val = [(prediction)]
